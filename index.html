@@ -20,6 +20,9 @@
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- For Using Custom Colors -->
     <script>
       tailwind.config = {
@@ -46,7 +49,7 @@
   </head>
   <body class="font-manrope">
     <!-- Here Start Header  -->
-    <header class="container mx-auto">
+    <header class="container mx-auto max-w-[1170px]">
       <!-- Here Start Nav Bar  -->
       <nav class="my-16">
         <div class="navbar bg-base-100">
@@ -128,7 +131,7 @@
         <div class="carousel w-full">
           <div
             id="slide1"
-            class="carousel-item relative w-auto bg-no-repeat bg-cover bg-center  lg:w-full  bg-[linear-gradient(180deg,rgba(211,211,211,0.1),rgba(211,211,211,0.1)),url(./images/1.png)] h-[80vh]"
+            class="carousel-item relative w-auto bg-no-repeat bg-cover bg-center lg:w-full bg-[linear-gradient(180deg,rgba(211,211,211,0.1),rgba(211,211,211,0.1)),url(./images/1.png)] h-[80vh]"
           >
             <div
               class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
@@ -152,60 +155,284 @@
         </div>
       </section>
     </header>
-    <main class="container mx-auto">
+    <main class="container mx-auto max-w-[1170px]">
       <!-- Professional Hockeys Club Section -->
 
       <section class="mx-auto pb-32">
-        <div class="text-center mx-auto py-8 border-y-2 border-dashed space-y-6">
-          <h2 class="text-4xl font-extrabold text-[#131318]">Professional Hockeys Club</h2>
-          <p class="w-[60%] mx-auto text-center text-base font-medium leading-6 text-[rgba(19, 19, 24, 0.60)]">Passion-fueled powerhouse on ice. Elevating the game with skill, speed, and teamwork. Join us for exhilarating hockey excellence!</p>
+        <div
+          class="text-center mx-auto py-8 border-y-2 border-dashed space-y-6"
+        >
+          <h2 class="text-4xl font-extrabold text-[#131318]">
+            Professional Hockeys Club
+          </h2>
+          <p
+            class="w-[60%] mx-auto text-center text-base font-medium leading-6 text-[rgba(19, 19, 24, 0.60)]"
+          >
+            Passion-fueled powerhouse on ice. Elevating the game with skill,
+            speed, and teamwork. Join us for exhilarating hockey excellence!
+          </p>
         </div>
         <!-- card container  -->
-        <div class="py-12 flex flex-col lg:flex-row justify-between items-center">
+        <div
+          class="py-12 flex flex-col lg:flex-row justify-between items-center"
+        >
           <!-- 1st card  -->
           <div class="card">
             <figure class="px-10 pt-10">
-              <div class="radial-progress text-[#FF4240]" style="--value:87;" role="progressbar"><span class="text-[#131318] text-xl">87%</span></div>
+              <div
+                class="radial-progress text-[#FF4240]"
+                style="--value: 87"
+                role="progressbar"
+              >
+                <span class="text-[#131318] text-xl">87%</span>
+              </div>
             </figure>
             <div class="card-body items-center text-center space-y-4">
-              <h2 class="card-title text-xl font-semibold text-[#131318]">Prayer Facility</h2>
+              <h2 class="card-title text-xl font-semibold text-[#131318]">
+                Prayer Facility
+              </h2>
               <p>Sacred space for pre-game focus and unity through prayer.</p>
             </div>
           </div>
           <!-- 2nd card  -->
           <div class="card">
             <figure class="px-10 pt-10">
-              <div class="radial-progress text-[#49D293]" style="--value:87;" role="progressbar"><span class="text-[#131318] text-xl">95%</span></div>
+              <div
+                class="radial-progress text-[#49D293]"
+                style="--value: 87"
+                role="progressbar"
+              >
+                <span class="text-[#131318] text-xl">95%</span>
+              </div>
             </figure>
             <div class="card-body items-center text-center space-y-4">
-              <h2 class="card-title text-xl font-semibold text-[#131318]">Experienced Coach</h2>
-              <p>Expert mentor cultivating champions with seasoned wisdom and strategic brilliance.</p>
+              <h2 class="card-title text-xl font-semibold text-[#131318]">
+                Experienced Coach
+              </h2>
+              <p>
+                Expert mentor cultivating champions with seasoned wisdom and
+                strategic brilliance.
+              </p>
             </div>
           </div>
           <!-- 3rd card  -->
           <div class="card">
             <figure class="px-10 pt-10">
-              <div class="radial-progress text-[#FFB546]" style="--value:87;" role="progressbar"><span class="text-[#131318] text-xl">90%</span></div>
+              <div
+                class="radial-progress text-[#FFB546]"
+                style="--value: 87"
+                role="progressbar"
+              >
+                <span class="text-[#131318] text-xl">90%</span>
+              </div>
             </figure>
             <div class="card-body items-center text-center space-y-4">
-              <h2 class="card-title text-xl font-semibold text-[#131318]">Senior Player</h2>
-              <p>Veteran leader igniting the ice with skill, experience, and dedication.</p>
+              <h2 class="card-title text-xl font-semibold text-[#131318]">
+                Senior Player
+              </h2>
+              <p>
+                Veteran leader igniting the ice with skill, experience, and
+                dedication.
+              </p>
             </div>
           </div>
           <!-- 4th card  -->
           <div class="card">
             <figure class="px-10 pt-10">
-              <div class="radial-progress text-[#4C8DF1]" style="--value:87;" role="progressbar"><span class="text-[#131318] text-xl">80%</span></div>
+              <div
+                class="radial-progress text-[#4C8DF1]"
+                style="--value: 87"
+                role="progressbar"
+              >
+                <span class="text-[#131318] text-xl">80%</span>
+              </div>
             </figure>
             <div class="card-body items-center text-center space-y-4">
-              <h2 class="card-title text-xl font-semibold text-[#131318]">Training Ground</h2>
-              <p>Pinnacle arena where champions forge skills through precision and determination.</p>
+              <h2 class="card-title text-xl font-semibold text-[#131318]">
+                Training Ground
+              </h2>
+              <p>
+                Pinnacle arena where champions forge skills through precision
+                and determination.
+              </p>
             </div>
           </div>
         </div>
+      </section >
+      <!-- Start Programming Section From Here  -->
+      <section class="pb-24">
+        <!-- section content  -->
+        <div
+          class="text-center mx-auto mb-12 py-8 border-y-2 border-dashed space-y-6"
+        >
+          <h2 class="text-4xl font-extrabold text-[#131318]">
+            Program Sections
+          </h2>
+          <p
+            class="w-[60%] mx-auto text-center text-base font-medium leading-6 text-[rgba(19, 19, 24, 0.60)]"
+          >
+            Elevate your game with our comprehensive programs, blending elite
+            training, strategic coaching, and unparalleled dedication to
+            excellence.
+          </p>
+        </div>
+        <div class="flex">
+          <!-- 1st card  -->
+          <div class="w-full w-full bg-no-repeat bg-full bg-[linear-gradient(180deg,rgba(19,19,24,0.5),rgba(19,19,19,0.5)),url(./images/2.png)]">
+            <div class="pt-24 pb-12 px-10">
+              <h3>Junior Program</h3>
+              <p>
+                Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                elit enim sagittis turpis in magna. Id et sed euismod natoque
+                amet nunc morbi nulla. Tortor congue sed et in.
+              </p>
+              <button>Register Now!</button>
+            </div>
+          </div>
+          
+        </div>
       </section>
 
-
+      <!-- Our New Products Section Start Here  -->
+      <section>
+        <div
+          class="text-center mx-auto py-8 border-y-2 border-dashed space-y-6"
+        >
+          <h2 class="text-4xl font-extrabold text-[#131318]">
+            Our New Products
+          </h2>
+          <p
+            class="w-[60%] mx-auto text-center text-base font-medium leading-6 text-[rgba(19, 19, 24, 0.60)]"
+          >
+          Unleash power on the ice with our cutting-edge gear, designed for peak performance and crafted for hockey enthusiasts.
+          </p>
+        </div>
+        <!-- card container  -->
+        <div
+          class="py-12 grid grid-cols-1 lg:grid-cols-2 gap-6"
+        >
+        <!-- 1st Card  -->
+        <div class="hero border-2 rounded-xl">
+          <div class="hero-content flex-col lg:flex-row">
+            <img src="./images/5.png" class="max-w-sm rounded-xl " />
+            <div class="space-y-3">
+              <div class="flex gap-4"><a href="#"><i class="fa-solid fa-star text-[#F99808]"></i>5.0</a>
+                   <a href="#"><i class="fa-regular fa-eye"></i>20</a>
+                   <a href="#"><i class="fa-regular fa-heart"></i>200</a>
+                  </div>
+              <h1 class="text-xl font-extrabold text-[#131318]">World Cup Flags Football</h1>
+              <p class="text-base font-medium leading-7 text-[rgba(19, 19, 24, 0.60)]">Showcase global unity with vibrant World Cup Flags Football collection.</p>
+              <div class="flex gap-5">
+                <h6>Price - $22.00</h6>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                </svg> <p>Delivery Fee : Free</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 2nd card  -->
+        <div class="hero border-2 rounded-xl">
+          <div class="hero-content flex-col lg:flex-row">
+            <img src="./images/6.png" class="max-w-sm rounded-xl " />
+            <div class="space-y-3">
+              <div class="flex gap-4"><a href="#"><i class="fa-solid fa-star text-[#F99808]"></i>5.0</a>
+                   <a href="#"><i class="fa-regular fa-eye"></i>20</a>
+                   <a href="#"><i class="fa-regular fa-heart"></i>200</a>
+                  </div>
+              <h1 class="text-xl font-extrabold text-[#131318]">World Cup Flags Football</h1>
+              <p class="text-base font-medium leading-7 text-[rgba(19, 19, 24, 0.60)]">Showcase global unity with vibrant World Cup Flags Football collection.</p>
+              <div class="flex gap-5">
+                <h6>Price - $22.00</h6>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                </svg> <p>Delivery Fee : Free</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 3rd card  -->
+        <div class="hero border-2 rounded-xl">
+          <div class="hero-content flex-col lg:flex-row">
+            <img src="./images/7.png" class="max-w-sm rounded-xl " />
+            <div class="space-y-3">
+              <div class="flex gap-4"><a href="#"><i class="fa-solid fa-star text-[#F99808]"></i>5.0</a>
+                   <a href="#"><i class="fa-regular fa-eye"></i>20</a>
+                   <a href="#"><i class="fa-regular fa-heart"></i>200</a>
+                  </div>
+              <h1 class="text-xl font-extrabold text-[#131318]">Cap For Hockeys</h1>
+              <p class="text-base font-medium leading-7 text-[rgba(19, 19, 24, 0.60)]">Elevate your style on the ice with premium hockey caps.</p>
+              <div class="flex gap-5">
+                <h6>Price - $22.00</h6>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                </svg> <p>Delivery Fee : Free</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 4th card  -->
+        <div class="hero border-2 rounded-xl">
+          <div class="hero-content flex-col lg:flex-row">
+            <img src="./images/8.png" class="max-w-sm rounded-xl " />
+            <div class="space-y-3">
+              <div class="flex gap-4"><a href="#"><i class="fa-solid fa-star text-[#F99808]"></i>5.0</a>
+                   <a href="#"><i class="fa-regular fa-eye"></i>20</a>
+                   <a href="#"><i class="fa-regular fa-heart"></i>200</a>
+                  </div>
+              <h1 class="text-xl font-extrabold text-[#131318]">World Cup Flags Football</h1>
+              <p class="text-base font-medium leading-7 text-[rgba(19, 19, 24, 0.60)]">Showcase global unity with vibrant World Cup Flags Football collection.</p>
+              <div class="flex gap-5">
+                <h6>Price - $22.00</h6>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                </svg> <p>Delivery Fee : Free</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 5th card  -->
+        <div class="hero border-2 rounded-xl">
+          <div class="hero-content flex-col lg:flex-row">
+            <img src="./images/9.png" class="max-w-sm rounded-xl " />
+            <div class="space-y-3">
+              <div class="flex gap-4"><a href="#"><i class="fa-solid fa-star text-[#F99808]"></i>5.0</a>
+                   <a href="#"><i class="fa-regular fa-eye"></i>20</a>
+                   <a href="#"><i class="fa-regular fa-heart"></i>200</a>
+                  </div>
+              <h1 class="text-xl font-extrabold text-[#131318]">World Cup Flags Football</h1>
+              <p class="text-base font-medium leading-7 text-[rgba(19, 19, 24, 0.60)]">Showcase global unity with vibrant World Cup Flags Football collection.</p>
+              <div class="flex gap-5">
+                <h6>Price - $22.00</h6>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                </svg> <p>Delivery Fee : Free</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 6th card  -->
+        <div class="hero border-2 rounded-xl">
+          <div class="hero-content flex-col lg:flex-row">
+            <img src="./images/10.png" class="max-w-sm rounded-xl " />
+            <div class="space-y-3">
+              <div class="flex gap-4"><a href="#"><i class="fa-solid fa-star text-[#F99808]"></i>5.0</a>
+                   <a href="#"><i class="fa-regular fa-eye"></i>20</a>
+                   <a href="#"><i class="fa-regular fa-heart"></i>200</a>
+                  </div>
+              <h1 class="text-xl font-extrabold text-[#131318]">World Cup Flags Football</h1>
+              <p class="text-base font-medium leading-7 text-[rgba(19, 19, 24, 0.60)]">Showcase global unity with vibrant World Cup Flags Football collection.</p>
+              <div class="flex gap-5">
+                <h6>Price - $22.00</h6>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                </svg> <p>Delivery Fee : Free</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
     </main>
     <footer></footer>
   </body>
