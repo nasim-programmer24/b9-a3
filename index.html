@@ -22,22 +22,82 @@
     />
     <!-- For Using Custom Colors -->
     <script>
-        tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-              }
-            }
-          }
-        }
-      </script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'primary-color': "#FF4240",
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
 
     <style>
-        .font-manrope{
-            font-family: 'Manrope', sans-serif;
-        }
+      .font-manrope {
+        font-family: "Manrope", sans-serif;
+      }
+      *{
+        margin: 0;
+        padding: 0;
+      }
     </style>
   </head>
-  <body></body>
+  <body class="font-manrope">
+    <!-- Here Start Header  -->
+    <header class="container mx-auto">
+      <!-- Here Start Nav Bar  -->
+      <nav class="my-16">
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              >
+                <li class="text-base font-normal text-primary-color"><a>Home</a></li>
+                <li class="text-base font-normal text-[#424247]"><a>About</a></li>
+                <li class="text-base font-normal text-[#424247]"><a>Pages</a></li>
+                <li class="text-base font-normal text-[#424247]"><a>Blog</a></li>
+                <li class="text-base font-normal text-[#424247]"><a>Contact</a></li>
+              </ul>
+            </div>
+            <a class=" text-2xl lg:text-4xl text-[#131318] font-extrabold">Hockey<span class="text-primary-color">’</span>s</a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1 ">
+              <li class="text-base font-normal text-primary-color lg:px-6"><a>Home</a></li>
+              <li class="text-base font-normal text-[#424247] lg:px-5"><a>About</a></li>
+              <li class="text-base font-normal text-[#424247] lg:px-6"><a>Pages</a></li>
+              <li class="text-base font-normal text-[#424247] lg:px-5"><a>Blog</a></li>
+              <li class="text-base font-normal text-[#424247] lgpx-6"><a>Contact</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end flex gap-2 lg:gap-6">
+            <a class=""><img src="./images/Frame.png" alt=""></a>
+            <button><a class="p-1 lg:px-6 lg:py-3 bg-primary-color text-base lg:text-xl font-bold text-white rounded-lg">Get Ticket</a></button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main></main>
+    <footer></footer>
+  </body>
 </html>
